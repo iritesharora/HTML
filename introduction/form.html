@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>form tag</title>
+</head>
+<body>
+<!-- exmaple of form tag -->
+<form name="register" action="register.jsp" method="POST">
+username<input type="text" name="uname" /> <br>
+password<input type="password" name="password" maxlength="8" /> <br>
+Gender:<input type="radio" name="radio" />male  <input type="radio" name="radio" />female<br>
+Skills:<input type="checkbox" name="skills"/>C++ <input type="checkbox" name="skills" checked/>java<br>
+Location:<select name="location">
+<option value="CHD">chandigarh</option>
+<option value="HP">Kangra</option>
+<option value="PB" selected>amritsar</option></select><br>
+About me:<textarea rows="20" color="white"></textarea><br>
+<input type="submit" name="submit" value="submit"/> 
+</form>
+</body>
+</html>

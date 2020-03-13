@@ -1,0 +1,28 @@
+.c1{
+    color:red;background-color: yellow;text-decoration: underline; text-align: center;
+}
+#p1{
+    color:red;background-color: yellow;text-decoration: underline; text-align: center;
+}
+.demo>h1{
+    color: blue;
+}
+.demo h1{
+    color: red;
+}
+.f1{
+    width: 200px;
+    height: 250px;
+}
+.f2
+{
+    align:center;
+
+}
+.t1{
+    height: 200px;
+}
+.f3{
+  width: 650px;
+  margin-left: 350px;
+}
